@@ -15,8 +15,11 @@ function cekNilai() {
              hasil = "Nilai B (Baik)"
   } else if (nilai >= 50) {
              hasil = "Nilai C (Cukup)"
-  } else if (nilai >= 0) {
+  } else if (nilai >= 30) {
              hasil = "Nilai D (Kurang)"
+  } else if (nilai >= 0) {
+             hasil = "Nilai E (Sangat Kuran)"
+  
   }
   
   // tampilkan isi variabel "hasil" ke elemen "hasil" di html
